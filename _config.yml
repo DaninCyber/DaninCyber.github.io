@@ -1,0 +1,21 @@
+title: CyberSec Insights
+description: Exploring the digital battlefield, one vulnerability at a time
+author: Daniel Britcher
+email: danincyber25@gmail.com
+url: "https://DanInCyber.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

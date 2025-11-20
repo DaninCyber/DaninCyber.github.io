@@ -1,0 +1,24 @@
+---
+layout: default
+title: Home
+---
+
+<h2 style="color: #00ff88; margin-bottom: 1rem;">Latest Posts</h2>
+
+<div class="blog-grid">
+    {% for post in site.posts %}
+    <div class="blog-card">
+        <span class="blog-tag">{{ post.category }}</span>
+        <h3><a href="{{ post.url | relative_url }}" style="color: #e0e0e0; text-decoration: none;">{{ post.title }}</a></h3>
+        <p class="blog-date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+    </div>
+    {% endfor %}
+</div>
+
+{% if site.posts.size == 0 %}
+<div style="text-align: center; padding: 3rem; color: #8892b0;">
+    <p>No posts yet. Start writing your first cybersecurity blog post!</p>
+</div>
+{% endif %}
