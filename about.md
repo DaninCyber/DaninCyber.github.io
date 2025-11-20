@@ -89,18 +89,6 @@ Roadmaps, curated resources, and career-guidance for aspiring researchers.
 
 </div>
 
-
-### **🛠 Tools & Frameworks**
-- Burp Suite  
-- Nmap / RustScan  
-- Metasploit  
-- Wireshark  
-- Volatility  
-- CyberChef  
-- Linux (SysAdmin basics)
-
-</div>
-
 ## Get in Touch
 
 - **Email:** [danincyber25@gmail.com](mailto:danincyber25@gmail.com)
