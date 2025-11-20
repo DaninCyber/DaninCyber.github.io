@@ -24,8 +24,8 @@ I'm a cybersecurity enthusiast passionate about sharing knowledge and helping ot
 
 ## Get in Touch
 
-- **Email:** [your.email@example.com](mailto:danincyber25@gmail.com)
-- **GitHub:** [github.com/yourusername](https://github.com/DanInCyber)
+- **Email:** [danincyber25@gmail.com](mailto:danincyber25@gmail.com)
+- **GitHub:** [github.com/DanInCyber](https://github.com/DanInCyber)
 - **Twitter:** [@yourusername](https://twitter.com/yourusername)
 
 ## Disclaimer
